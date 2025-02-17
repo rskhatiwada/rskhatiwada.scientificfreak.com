@@ -109,7 +109,16 @@ html, body {
   color: #161616;
 }
 
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+  #head .title {
+    font-size: 2.2rem;  /* Smaller title font size for mobile */
+  }
 
+  #head .tagline {
+    font-size: 1.1rem;  /* Smaller tagline font size for mobile */
+  }
+}
 
 
 
