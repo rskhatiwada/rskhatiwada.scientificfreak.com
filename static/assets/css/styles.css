@@ -357,6 +357,11 @@ a:hover {
   color: white !important;
 }
 
+@media (max-width: 768px) {
+  .btn-action {
+      display: none !important;
+  }
+}
 
 .panel-cta {
   width: 100%;
