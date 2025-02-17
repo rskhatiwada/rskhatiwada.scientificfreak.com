@@ -358,7 +358,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .btn-action {
+  .hide-mobile {
       display: none !important;
   }
 }
