@@ -162,7 +162,7 @@
 </main>
 
 
-<!-- Automatic Fetching from hugo -->
+<!-- Automatic Fetching from Hugo -->
 <main id="main">
     <div class="container">
         <h2 class="section-title">
@@ -179,15 +179,15 @@
                     <!-- Bootstrap column configuration -->
                     <div class="col-md-4 col-sm-6 mb-4"> <!-- 3 columns per row on medium screens, 2 on smaller screens -->
                         <div class="thumbnail info-box">
-                            <a href="{{ .Permalink }}">
+                            <a href="{{ .Permalink }}"> <!-- Wrap only the image and title in the <a> tag -->
                                 {{ if .Params.featured_image }}
                                     <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" class="zoom-image img-fluid">
                                 {{ end }}
-                            </a>
+                                <h4 class="article-title">{{ .Title }}</h4> <!-- Title is now clickable -->
+                            </a> <!-- Closing <a> tag here -->
                             <div class="caption mt-3">
-                                <h4 class="article-title">{{ .Title }}</h4>
-                                <p class="article-description">{{ .Params.description }}</p>
-                                <small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small>
+                                <p class="article-description">{{ .Params.description }}</p> <!-- Description is not clickable -->
+                                <small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small> <!-- Date is not clickable -->
                             </div>
                         </div>
                     </div>
@@ -196,6 +196,7 @@
         </section>
     </div>
 </main>
+
 
 
 <!-- Download CV Section -->
