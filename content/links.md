@@ -1,7 +1,7 @@
 ---
 title: Links
 layout: default
-permalink: /links
+permalink: /links/
 readingtime: false
 
 links: 
