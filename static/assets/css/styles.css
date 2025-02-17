@@ -3,6 +3,17 @@ body {
   background-color: rgb(245,245,251) !important; /* Light grey background */
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .parallax {
+      background-attachment: scroll;
+  }
+}
 
 /*********************************************************************
 
