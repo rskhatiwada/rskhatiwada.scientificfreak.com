@@ -1,20 +1,12 @@
----
-date: '2021-10-10T13:07:08+05:45'
-draft: false
-enable_social_share: true
-title: 'Can We See an Electron?'
-authorName: "Raju S. Khatiwada"
-authorUrl: "https://rskhatiwada.scientificfreak.com"
-type: "post"
-math: true
-search: true
-archives: false
-comments: true
-tags: ["science", "physics", "quantum mechanics", "electron"]
-categories: ["science", "opinion", "physics"]
-description: "Exploring the fundamental question: Can we see an electron? This article dives into the physics of electron localization, quantum mechanics, and the nature of particle-wave duality."
-featured_image: "/images/electron-visualization.webp"
----
++++ date = "2021-10-10T13:07:08+05:45" draft = false enable_social_share = true title = "If Electron Were a Person" authorName = "Raju S. Khatiwada" authorUrl = "https://rskhatiwada.scientificfreak.com" type = "post" math = true search = true archives = false comments = true
+
+tags = ["science", "physics", "quantum mechanics", "electron"] categories = ["science", "opinion"]
+
+description = "Exploring the fundamental question: Can we see an electron? This article dives into the physics of electron localization, quantum mechanics, and the nature of particle-wave duality."
+
+featured_image = "/images/electron-visualization.webp"
+
++++
 
 # Can We See an Electron?
 
