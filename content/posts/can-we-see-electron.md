@@ -14,6 +14,8 @@ No, we can’t—at least not in the way we traditionally define "seeing." If we
 
 Our eyes evolved to detect only a narrow range of electromagnetic (EM) radiation—visible light. Anything outside this range, such as X-rays, gamma rays, and many other EM waves, remains invisible to us. We can only "see" things when they interact with EM waves in a way that produces visible light. But here’s where things get interesting: electrons do interact with EM waves, yet they remain invisible. Why?
 
+![Seeing electron](/images/electron-visualization.webp)
+
 ## The Problem with Seeing Electrons
 
 First, electrons are tiny—absurdly small. But more importantly, they are extremely light. If a photon (a particle of light) were to strike an electron in an attempt to illuminate it, the electron wouldn’t just sit there and reflect the light. Instead, it would get knocked away, accelerating instantly due to its tiny mass. This makes it fundamentally impossible to see an electron in the classical sense.
